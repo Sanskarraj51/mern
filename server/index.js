@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cors());
 
 
-mongoose.connect("mongodb+srv://sanskar:1234wethesingh@chat.igme4.mongodb.net/?retryWrites=true&w=majority",{
+mongoose.connect("Your clustor link",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 });()=>{
